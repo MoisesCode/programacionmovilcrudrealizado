@@ -41,68 +41,68 @@
         android:layout_height="500dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSegundoCorte1"
+        app:layout_constraintVertical_bias="0.066" />
 
     <Button
         android:id="@+id/buttonTercerCorte1"
         android:layout_width="125dp"
         android:layout_height="38dp"
+        android:onClick="_buttonTercerCorte"
         android:text="Tercer corte"
         android:textAlignment="center"
         android:textSize="10sp"
-        android:onClick="_buttonTercerCorte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toEndOf="@+id/buttonSegundoCorte1"
-        app:layout_constraintTop_toBottomOf="@+id/textViewNombreMateria"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextNombreMateria"
+        app:layout_constraintVertical_bias="0.02" />
 
     <Button
         android:id="@+id/buttonSegundoCorte1"
         android:layout_width="125dp"
         android:layout_height="38dp"
+        android:onClick="_buttonSegundoCorte"
         android:text="Segundo corte"
         android:textAlignment="center"
         android:textSize="10sp"
-        android:onClick="_buttonSegundoCorte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toEndOf="@+id/buttonPrimerCorte1"
-        app:layout_constraintTop_toBottomOf="@+id/textViewNombreMateria"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextNombreMateria"
+        app:layout_constraintVertical_bias="0.02" />
 
     <Button
         android:id="@+id/buttonPrimerCorte1"
         android:layout_width="125dp"
         android:layout_height="38dp"
+        android:onClick="_buttonPrimerCorte"
         android:text="Primer corte"
         android:textAlignment="center"
         android:textSize="10sp"
-        android:onClick="_buttonPrimerCorte"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintHorizontal_bias="0.034"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewNombreMateria"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextNombreMateria"
+        app:layout_constraintVertical_bias="0.02" />
 
     <Button
         android:id="@+id/buttonRegistrarMateria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Eliminar"
         android:onClick="eliminarMateria"
+        android:text="Eliminar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.937" />
+        app:layout_constraintTop_toBottomOf="@+id/listViewActividades"
+        app:layout_constraintVertical_bias="0.137" />
 
     <Button
         android:id="@+id/buttonAgregarActividad"
@@ -112,10 +112,10 @@
         android:text="Agregar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.937" />
+        app:layout_constraintTop_toBottomOf="@+id/listViewActividades"
+        app:layout_constraintVertical_bias="0.137" />
 
     <TextView
         android:id="@+id/textViewDefinitivaMateria1"
