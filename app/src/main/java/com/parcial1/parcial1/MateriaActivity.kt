@@ -410,4 +410,14 @@ class MateriaActivity : AppCompatActivity() {
             ).show()
         }
     }
+
+    fun eliminarMateria(view: View) {
+        var database = FirebaseDatabase.getInstance().reference
+        database.child(materiaLocal.Id).removeValue()
+        Toast.makeText(
+            this@MateriaActivity,
+            "Materia eliminada", Toast.LENGTH_SHORT
+        ).show()
+        finish()
+    }
 }
